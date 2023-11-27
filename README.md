@@ -38,11 +38,11 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
 * Requires: `rust` version 1.48 [install rust](https://www.rust-lang.org/tools/install)
 
 * (Windows) Requires C++ build tools
-  - Download (Visual Studio build tools)[https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16] and install `Desktop development with C++`
+  - Download [Visual Studio build tool](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16) and install `Desktop development with C++`
 
 * Requires SDL2 and SDL2_ttf dev libraries.
 
-  - On MacOS, the dev libraries can be installed with [homebrew](https://brew.sh/).
+  - On MacOS, the dev libraries can be installed with [homebrew](https://brew.sh/).  
     Once homebrew has been installed, the following commands are used to installed the libraries
     ```sh
     brew install sdl2
@@ -51,8 +51,8 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
     brew install sld2_ttf
     ```
   - On Windows,
-    Install the -win32 zip from [SDL2](https://github.com/libsdl-org/SDL/releases) and [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases).
-    Extract the zips and take the .ddl files.
+    Install the -win32 zip from [SDL2](https://github.com/libsdl-org/SDL/releases) and [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases).  
+    Extract the zips and take the .ddl files.  
 
   
 The following command should be used to build the client:
