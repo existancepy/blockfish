@@ -38,7 +38,7 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
 * Requires: `rust` version 1.48 [install rust](https://www.rust-lang.org/tools/install)
 
 * (Windows) Requires C++ build tools
-  - Download [Visual Studio build tool](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16) and install `Desktop development with C++`
+  - Download [Visual Studio build tool](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16). Open Visual studio installer and install `Desktop development with C++`
 
 * Requires SDL2 and SDL2_ttf dev libraries.
 
