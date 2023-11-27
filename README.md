@@ -51,7 +51,7 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
     brew install sld2_ttf
     ```
   - On Windows,
-    Install the -win32 zip from [SDL2](https://github.com/libsdl-org/SDL/releases) and [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases).  
+    Install the -win32 zip from [SDL2](https://github.com/libsdl-org/SDL/releases) and [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases).      
     Extract the zips and take the .ddl files.  
 
   
