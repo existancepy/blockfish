@@ -50,7 +50,8 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
     ```sh
     brew install sld2_ttf
     ```
-- On Windows, 
+- On Windows,
+  
 The following command should be used to build the client:
 
 ```sh
