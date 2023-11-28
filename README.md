@@ -53,6 +53,7 @@ Blockfish is written primarily in Rust. You can build it with the `cargo` tool.
   - On Windows,
     Install the -win32 zip from [SDL2](https://github.com/libsdl-org/SDL/releases) and [SDL2_ttf](https://github.com/libsdl-org/SDL_ttf/releases).      
     Extract the zips
+    Take out the SDL2.dll, SDL2.lib, SDL2main.lib, SDL2test.lib, SDL2_tff.dll and SDL2_tff.lib files. They will be referred to as library files  
 
   
 The following command should be used to build the client:
@@ -61,6 +62,8 @@ The following command should be used to build the client:
 cargo build --manifest-path blockfish-client/Cargo.toml --release --features msgbox
 ```
 
-Note that on Windows you must have the `.LIB` files for SDL2 and SDL2_ttf placed in the
-same directory that you run this command in. Running Blockfish requires the associated
-`.DLL` files for these depencies.
+Note that on Windows you must have the library files placed in the
+same directory that you run this command in.
+
+Afterwards, a target folder should be created, with a blockfish-client program inside it. (Note that the extension differs for different OS)
+Place your library files in the target folder and open the program
